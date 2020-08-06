@@ -9,3 +9,8 @@ class TestHuga:
 class DasiukeHuga:
     def dai_huga(self):
         pass
+
+
+class TogoYamanakaClass:
+    def fuga(self):
+        pass
