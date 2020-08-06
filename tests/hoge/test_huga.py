@@ -14,3 +14,8 @@ class DasiukeHuga:
 class TogoYamanakaClass:
     def fuga(self):
         pass
+
+
+class ItoDesuClass:
+    def hoge(self):
+        pass
