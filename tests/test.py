@@ -1,8 +1,9 @@
-from unittest import TestCase
+# from unittest import TestCase
+from vending_machine.hoge.coin import Coin, VendingMachine
 
 
-class CoinTest(TestCase):
+class TestCoin():
     def test_catch_coin(self):
         machine = VendingMachine()
-        machine.get_coin(Coin(50): Coin)
-        assert([Coin(50).amount, machine.contained[0].amount)
+        machine.catch_coin(Coin(50))
+        assert Coin(50).amount == machine.contained[0].amount

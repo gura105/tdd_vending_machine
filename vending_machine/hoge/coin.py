@@ -6,7 +6,7 @@ class Coin(object):
 
 class VendingMachine(object):
     def __init__(self):
-        pass
+        self.contained = []
 
     def catch_coin(self, coin: Coin) -> None:
         pass
